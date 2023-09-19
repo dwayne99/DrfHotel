@@ -132,11 +132,11 @@ struct room *book_room(struct room *start){
     system("COLOR 1F");
     mm:
     printf(" ________________________________________________________________________________________________________________\n");
-    printf("| SR.NO\t|\tROOM TYPE\t|\tTOTAL\t\t|\tAVAILABLE\t|\tPRICE PER NIGHT(Rs)      |\n");
+    printf("| SR.NO\t|\tROOM TYPE\t|\tTOTAL\t\t|\tAVAILABLE\t|\tPRICE PER NIGHT      |\n");
     printf("|________________________________________________________________________________________________________________|\n");
-    printf("| 1.\t|\tSUITE\t\t|\t5\t\t|\t%d\t\t|\t10000                    |\n",avail_suite);
-    printf("| 2.\t|\tSUPER DELUX\t|\t5\t\t|\t%d\t\t|\t8000                     |\n",avail_super_delux);
-    printf("| 3.\t|\tCLASSIC\t\t|\t5\t\t|\t%d\t\t|\t5000                     |\n",avail_classic);
+    printf("| 1.\t|\tSUITE\t\t|\t5\t\t|\t%d\t\t|\t1000                    |\n",avail_suite);
+    printf("| 2.\t|\tSUPER DELUX\t|\t5\t\t|\t%d\t\t|\t800                     |\n",avail_super_delux);
+    printf("| 3.\t|\tCLASSIC\t\t|\t5\t\t|\t%d\t\t|\t500                     |\n",avail_classic);
     printf("| 4.MAIN MENU                                                                                                    |\n");
     printf("|________________________________________________________________________________________________________________|\n");
     printf("What room do you want?\t");
