@@ -79,9 +79,6 @@ void greetings(){
 	printf("\t\t\t     *  THE ART OF MEETING YOUR HIGHEST EXPECTATION  *\n");
 	printf("\t\t\t     *                                               *\n");
 	printf("\t\t\t     *                                               *\n");
-	printf("\t\t\t     *             Bandra(w),Mumbai.                 *\n");
-	printf("\t\t\t     *                  INDIA                        *\n");
-	printf("\t\t\t     *      CONTACT US:8080408783,0610423280         *\n");
 	printf("\t\t\t     *************************************************\n\n\n");
     time_t current_time = time(NULL);
     struct tm *tm = localtime(&current_time);
